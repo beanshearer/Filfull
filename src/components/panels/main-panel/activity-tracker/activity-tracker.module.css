@@ -1,0 +1,18 @@
+.activity-tracker {
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  width: -webkit-fill-available;
+}
+
+.activities {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 420px) {
+  .activity-tracker {
+    padding: 0.5rem 0;
+  }
+}
