@@ -1,0 +1,11 @@
+.error {
+  color: var(--red);
+  font-weight: 600;
+  background: white;
+  padding: 0.2rem;
+  border: solid 0.1rem var(--light-red);
+}
+
+.link {
+  color: white;
+}
