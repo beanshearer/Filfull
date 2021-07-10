@@ -1,0 +1,23 @@
+.activity-tracker-header {
+  border-radius: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  width: -webkit-fill-available;
+}
+
+.fulfillment-progressbar {
+  width: 7rem;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 420px) {
+  .activity-tracker-header {
+    justify-content: center;
+    text-align: center;
+  }
+}
