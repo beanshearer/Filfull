@@ -1,0 +1,39 @@
+.top-header {
+  background: var(--dark-blue);
+  box-shadow: var(--main-shadow);
+  padding: 0.3rem 0.3rem 0rem;
+  position: fixed;
+  top: -1.5rem;
+  transform: skewY(-0.8deg);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 4rem;
+  margin: 1.5rem;
+  transform: skewY(0.8deg);
+  width: 4rem;
+}
+
+.top-header nav {
+  margin: 2.5rem 1rem 0;
+  transform: skewY(0.8deg);
+}
+
+.top-header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.top-header nav ul li {
+  margin: 0 1rem;
+}
+
+.top-header nav ul li a {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
