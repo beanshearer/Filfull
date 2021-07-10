@@ -1,0 +1,57 @@
+.main-button {
+  background: var(--darker-blue);
+  border: none;
+  color: var(--white);
+  font-weight: 600;
+  min-height: 2rem;
+  margin: 0.3rem 0;
+}
+
+.main-button:hover {
+  background: var(--lighter-blue);
+  color: var(--darker-blue);
+  cursor: pointer;
+}
+
+.main-button:disabled {
+  background: var(--grey);
+  color: var(--lighter-blue);
+  cursor: not-allowed;
+}
+
+.add-button {
+  border-radius: 0.2rem;
+  box-shadow: var(--main-shadow);
+  font-size: 1rem;
+  padding: 0.2rem 0.3rem;
+  min-width: 4rem;
+}
+
+.delete-button {
+  background: var(--red);
+  border-radius: 0.2rem;
+  box-shadow: var(--main-shadow);
+  font-size: 1.25rem;
+  padding: 0.2rem 0.3rem;
+  min-width: 8rem;
+}
+
+.full-width-button {
+  border-radius: 0.3rem;
+  box-shadow: var(--main-shadow);
+  height: 2.5rem;
+  width: -webkit-fill-available;
+}
+
+.link {
+  background: transparent;
+  margin: 0.75rem 0.75rem 0;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.link:hover {
+  cursor: pointer;
+  background: inherit;
+  color: inherit;
+}
