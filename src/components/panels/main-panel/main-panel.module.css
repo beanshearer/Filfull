@@ -1,0 +1,13 @@
+.main-panel {
+  background: var(--dark-blue);
+  border-radius: 0.1rem;
+  box-shadow: var(--main-shadow);
+  margin: 1rem;
+}
+
+@media (max-width: 420px) {
+  .main-panel {
+    margin: 1rem 0;
+    padding: 1rem 0;
+  }
+}
