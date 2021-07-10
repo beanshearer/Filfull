@@ -1,0 +1,11 @@
+.main-label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  padding: 0.3rem 0;
+  text-align: start;
+}
+
+.negative-top-margin {
+  margin-top: -0.5rem;
+}
