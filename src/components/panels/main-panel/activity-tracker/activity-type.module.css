@@ -1,0 +1,15 @@
+.activity-type {
+  background: var(--darker-blue);
+  border-radius: 0.1rem;
+  box-shadow: var(--main-shadow);
+  padding: 0.3rem;
+  margin: 0.5rem;
+  background: rgb(57, 60, 239);
+  background: linear-gradient(90deg, rgba(57, 60, 239, 1) 0%, rgba(122, 57, 239, 1) 100%);
+}
+
+.activity-type h3 {
+  margin: 0.3rem 0.3rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
