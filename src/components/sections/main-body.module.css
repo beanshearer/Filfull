@@ -1,0 +1,7 @@
+.main-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10rem 0.1rem;
+  width: 100%;
+}
