@@ -1,6 +1,6 @@
 # Filfull
 
-This is a simple productivity app that allows you to track what you have done on given day and assign a score to each task. This will then show the corresponding average score for the day.
+This is a simple productivity app that allows you to track what you have done on a given day and lets you assign a score to each task. This will then show the corresponding average score for the day.
 
 It uses Firebase Auth and Firestore.
 
