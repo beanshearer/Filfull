@@ -1,0 +1,22 @@
+.error {
+  color: var(--red);
+  font-weight: 600;
+  background: var(--white);
+  padding: 0.2rem;
+  border: solid 0.1rem var(--light-red);
+}
+
+.link {
+  color: var(--white);
+}
+
+.password-strength {
+  background: var(--white);
+  height: 1.5rem;
+  border: solid 0.1rem var(--white);
+}
+
+.password-strength rect {
+  height: 100%;
+  fill: var(--darker-blue);
+}
