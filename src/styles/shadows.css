@@ -1,0 +1,4 @@
+:root {
+  --main-shadow: 0rem 0rem 0.2rem 0 var(--black);
+  --inwards-shadow: inset 0rem 0rem 0.2rem 0 var(--black);
+}
