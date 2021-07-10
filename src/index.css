@@ -1,0 +1,28 @@
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: #f9fcff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  background: url(images/background.jpg);
+}
+
+input,
+button,
+textarea {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*:focus {
+  outline-color: var(--light-blue);
+}
+
+.rawpixel-link {
+  margin: 40rem 0.5rem 0.5rem;
+  color: white;
+  display: block;
+}
