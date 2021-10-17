@@ -32,10 +32,6 @@ export default function App() {
           </Route>
         </Switch>
       </Router>
-
-      <a className="rawpixel-link" href="https://www.freepik.com/free-photos-vectors/pattern">
-        Pattern vector created by rawpixel.com - www.freepik.com
-      </a>
     </ContextProvider>
   );
 }

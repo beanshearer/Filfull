@@ -8,22 +8,19 @@ body {
   margin: 0;
   background-color: #12134c;
   background: url(images/background.jpg);
+  background-size: cover;
+  min-height: 65rem;
 }
 
 input,
 button,
 textarea {
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
+  font-size: 1rem;
 }
 
 *:focus {
-  outline-color: var(--light-blue);
-}
-
-.rawpixel-link {
-  margin: 40rem 0.5rem 0.5rem;
-  color: white;
-  display: block;
+  outline-color: var(--darker-blue);
 }

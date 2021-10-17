@@ -1,17 +1,15 @@
 .main-text-area {
-  background: transparent;
-  border-radius: 0.3rem;
-  border: solid 0.1rem var(--white);
-  color: var(--white);
+  border: solid 0.1rem #bdbdbd;
   font-size: 1rem;
   font-weight: 600;
   height: 7rem;
   padding: 0.3rem;
-  width: 18rem;
+  width: 100%;
+  box-sizing: border-box;
+  color: var(--dark-blue);
 }
 
 .main-text-area::placeholder {
-  color: var(--lightest-blue);
   font-weight: 100;
 }
 

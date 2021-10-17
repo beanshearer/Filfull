@@ -11,7 +11,7 @@ export default function ActivityTrackerHeader({ activities }) {
   return (
     <header className={styles["activity-tracker-header"]}>
       <div>
-        <p>Hello!</p>
+        <p>Hello,</p>
         <p>This is your space to rank your achievements and track your productivity.</p>
         <p>What have you done today?</p>
       </div>

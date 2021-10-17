@@ -9,9 +9,11 @@
 .activities {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 600px) {
   .activity-tracker {
     padding: 0.5rem 0;
   }

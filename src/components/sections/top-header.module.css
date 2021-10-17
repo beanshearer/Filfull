@@ -1,13 +1,22 @@
 .top-header {
-  background: var(--dark-blue);
-  box-shadow: var(--main-shadow);
-  padding: 0.3rem 0.3rem 0rem;
   position: fixed;
   top: -1.5rem;
+  width: 100%;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.top-header > div {
+  box-shadow: var(--main-shadow);
+  padding: 0.3rem 0.3rem 0rem;
   transform: skewY(-0.8deg);
   width: 100%;
   display: flex;
   justify-content: space-between;
+  z-index: 10;
+  -webkit-backdrop-filter: blur(0.5rem);
+  backdrop-filter: blur(0.5rem);
+  background: var(--background-dark-blue);
 }
 
 .logo {
@@ -28,7 +37,7 @@
 }
 
 .top-header nav ul li {
-  margin: 0 1rem;
+  margin: 0 0 0 0.8rem;
 }
 
 .top-header nav ul li a {

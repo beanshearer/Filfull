@@ -3,8 +3,8 @@
   border: none;
   color: var(--white);
   font-weight: 600;
-  min-height: 2rem;
-  margin: 0.3rem 0;
+  min-height: 3rem;
+  margin: 1rem 0.3rem;
 }
 
 .main-button:hover {
@@ -25,6 +25,14 @@
   font-size: 1rem;
   padding: 0.2rem 0.3rem;
   min-width: 4rem;
+}
+
+.edit-button {
+  background: none;
+  border: none;
+  color: var(--white);
+  box-shadow: none;
+  margin: 0 0.5rem;
 }
 
 .delete-button {
