@@ -14,6 +14,7 @@
   background: var(--white);
   height: 1.5rem;
   border: solid 0.1rem var(--white);
+  margin-top: 0.3rem;
 }
 
 .password-strength rect {

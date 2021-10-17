@@ -77,7 +77,7 @@ export default function SignupPanel() {
             inputStyle="main-input"
             invalidMessage={isRequired("Name", name)}
             name="name"
-            placeholder="e.g. John Smith"
+            placeholder="John Smith"
             setText={setName}
             dataTestId="name-input"
             showInvalid={showInvalid}
@@ -92,7 +92,7 @@ export default function SignupPanel() {
             inputStyle="main-input"
             invalidMessage={isValidEmail(email, true)}
             name="email"
-            placeholder="e.g. example@email.com"
+            placeholder="example@email.com"
             setText={setEmail}
             showInvalid={showInvalid}
             text={email}
@@ -105,7 +105,7 @@ export default function SignupPanel() {
             dataTestId="password-input"
             inputStyle="main-input"
             invalidMessage={isValidPassword(password)}
-            placeholder="e.g. a-Strong_password-2021"
+            placeholder="a-Strong_password-2021"
             setText={setPassword}
             showInvalid={showInvalid}
             text={password}
@@ -124,7 +124,7 @@ export default function SignupPanel() {
             inputStyle="main-input"
             invalidMessage={doPasswordsMatch(password, confirmPassword)}
             name="confirm-password"
-            placeholder="e.g. a-Strong_password-2021"
+            placeholder="a-Strong_password-2021"
             setText={setConfirmPassword}
             showInvalid={showInvalid}
             text={confirmPassword}

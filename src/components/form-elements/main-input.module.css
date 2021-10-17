@@ -1,18 +1,15 @@
 .main-input {
-  background: transparent;
-  border-radius: 0.3rem;
-  border: solid 0.1rem var(--white);
-  color: var(--white);
+  border: solid 0.1rem #cacaca;
+  color: var(--dark-blue);
   font-size: 1rem;
   font-weight: 600;
-  height: 1.5rem;
-  margin: 0.2rem 0;
+  height: 2rem;
   padding: 0.3rem;
+  min-width: 4rem;
   width: -webkit-fill-available;
 }
 
 .main-input::placeholder {
-  color: var(--lightest-blue);
   font-weight: 100;
 }
 

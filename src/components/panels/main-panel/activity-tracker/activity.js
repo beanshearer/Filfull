@@ -59,7 +59,7 @@ export default function Activity({ activity, activityType }) {
               max={10}
               min={1}
               invalidMessage={isRequired("Score", score)}
-              placeholder="e.g. 7"
+              placeholder="Score"
               setText={(score) => {
                 if (Number(score) > 10) return;
 
@@ -110,7 +110,7 @@ export default function Activity({ activity, activityType }) {
       ) : (
         <MainButton
           key="edit"
-          buttonStyle="add-button"
+          buttonStyle="edit-button"
           onClick={() => setIsEditable(true)}
           title="Edit"
           type="button"

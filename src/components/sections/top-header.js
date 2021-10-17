@@ -12,28 +12,30 @@ export default function TopHeader() {
 
   return (
     <header className={`${styles["top-header"]} ease-fade-in`} data-testid="top-header">
-      <img className={styles.logo} src={logo} alt="Logo" />
+      <div>
+        <img className={styles.logo} src={logo} alt="Logo" />
 
-      <nav>
-        {user?.uid ? (
-          <MainButton
-            buttonStyle="link"
-            onClick={() => setAccountSidebarOpen(true)}
-            title="Account"
-          />
-        ) : undefined}
-        {user?.uid ? undefined : (
-          <ul>
-            <li>
-              <Link to="/signup">Sign Up</Link>
-            </li>
+        <nav>
+          {user?.uid ? (
+            <MainButton
+              buttonStyle="link"
+              onClick={() => setAccountSidebarOpen(true)}
+              title="Account"
+            />
+          ) : undefined}
+          {user?.uid ? undefined : (
+            <ul>
+              <li>
+                <Link to="/signup">Sign Up</Link>
+              </li>
 
-            <li>
-              <Link to="/signin">Sign In</Link>
-            </li>
-          </ul>
-        )}
-      </nav>
+              <li>
+                <Link to="/signin">Sign In</Link>
+              </li>
+            </ul>
+          )}
+        </nav>
+      </div>
     </header>
   );
 }

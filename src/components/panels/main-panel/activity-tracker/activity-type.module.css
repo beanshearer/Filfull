@@ -1,15 +1,22 @@
 .activity-type {
-  background: var(--darker-blue);
-  border-radius: 0.1rem;
-  box-shadow: var(--main-shadow);
-  padding: 0.3rem;
-  margin: 0.5rem;
   background: rgb(57, 60, 239);
   background: linear-gradient(90deg, rgba(57, 60, 239, 1) 0%, rgba(122, 57, 239, 1) 100%);
+  border-radius: 0.1rem;
+  box-shadow: var(--main-shadow);
+  margin: 0.5rem;
+  max-width: 20rem;
+  padding: 0.3rem;
+  width: 100%;
 }
 
 .activity-type h3 {
   margin: 0.3rem 0.3rem 1rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .activity-type {
+    max-width: 30rem;
+  }
 }

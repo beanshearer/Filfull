@@ -49,7 +49,7 @@ export default function SigninPanel() {
           <MainInput
             inputStyle="main-input"
             invalidMessage={isValidEmail(email, true)}
-            placeholder="e.g. example@email.com"
+            placeholder="example@email.com"
             setText={setEmail}
             showInvalid={showInvalid}
             text={email}
@@ -62,7 +62,7 @@ export default function SigninPanel() {
           <MainInput
             inputStyle="main-input"
             invalidMessage={isValidPassword(password)}
-            placeholder="e.g. a-Strong_password-2021"
+            placeholder="a-Strong_password-2021"
             setText={setPassword}
             showInvalid={showInvalid}
             text={password}
